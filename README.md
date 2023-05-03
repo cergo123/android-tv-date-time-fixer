@@ -6,7 +6,7 @@ Too many Android TV users face a problem where their Android TV time & date rese
 
 
 ### How to use
-- Download the executable file from [here]('https://github.com/JagarYousef/android-tv-date-time-fixer/releases')
+- Download the executable file from https://github.com/JagarYousef/android-tv-date-time-fixer/releases
 - Run it on your device and follow the instructions step by step
 
 
