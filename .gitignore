@@ -1,0 +1,8 @@
+venv
+venv/
+keys
+keys/
+build
+build/
+.idea
+.idea/
