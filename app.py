@@ -63,10 +63,10 @@ def fix(device, code):
     This function fixes the date and time settings on the Android TV device by setting the NTP server to a specified country code
     """
     current_ntp = device.shell('settings get global ntp_server')
-    print(f'Current NTP server is {current_ntp.strip()}')
-    print(f'Setting the NTP server to {code}.pool.ntp.org...')
-    device.shell(f'settings put global ntp_server {code.strip()}.pool.ntp.org')
-    print(f'The NTP server has been set to {code.strip()}.pool.ntp.org successfully')
+    print(f'Current NTP server is {current_ntp}')
+    print(f'Setting the NTP server to {code.strip().lower()}.pool.ntp.org...')
+    device.shell(f'settings put global ntp_server {code.strip().lower()}.pool.ntp.org')
+    print(f'The NTP server has been set to {code.strip().lower()}.pool.ntp.org successfully')
     print('Set Time & Date to automatic on your TV, then it should work :)')
     print('This script was made by Jagar Yousef (Rojava Programmers Forum)')
     print('Click any key to exit...')
